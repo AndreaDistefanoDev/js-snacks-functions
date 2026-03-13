@@ -5,13 +5,14 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 //Function
+
 function userWelcome(text) {
-    const hello = 'Ciao ' + text
-  return hello  
-} 
+    return 'Ciao ' + text
+}
 
-///Arrow Function
+//Arrow Function
 
+//const userWelcome = text => 'Ciao ' + text
 
 // Invoca la funzione qui e stampa il risultato in console
 const firstWelcome = userWelcome(userName)
