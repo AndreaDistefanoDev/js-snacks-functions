@@ -4,11 +4,19 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-const helloUser = message => console.log('Ciao' + ' ' + message)
+//Function
+function userWelcome(text) {
+    const hello = 'Ciao ' + text
+  return hello  
+} 
+
+///Arrow Function
 
 
 // Invoca la funzione qui e stampa il risultato in console
-helloUser(userName)
+const firstWelcome = userWelcome(userName)
+console.log(firstWelcome);
+
 
 
 
