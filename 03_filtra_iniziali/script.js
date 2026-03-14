@@ -11,9 +11,10 @@ function filterByChar(list, character) {
     for (let i = 0; i < list.length; i++) {
         const listNames = list[i]
         const initialChar = listNames[0]
-        if (initialChar.toUpperCase() === character.toUpperCase())
+        if (initialChar.toUpperCase() === character.toUpperCase()) {
             finalArray.push(listNames)
-        
+        }
+
     }
     return finalArray
 }
@@ -32,7 +33,7 @@ const filterByChar = (list, character) => {
     return finalArray
 }*/
 // Invoca la funzione qui e stampa il risultato in console
-const finalArray= filterByChar(names,'A')
+const finalArray = filterByChar(names, 'A')
 console.log(finalArray);
 
 
