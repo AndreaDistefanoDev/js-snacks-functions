@@ -19,7 +19,8 @@ function filterByChar(list, character) {
 }
 
 //Arrow Function
-/*function filterByChar(list, character) {
+/*
+const filterByChar = (list, character) => {
     const finalArray = []
     for (let i = 0; i < list.length; i++) {
         const listNames = list[i]
